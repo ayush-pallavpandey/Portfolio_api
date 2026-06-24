@@ -35,8 +35,7 @@ java -jar target/portfolio-api-0.0.1-SNAPSHOT.jar
 Spring Boot REST API deployed on AWS EC2.
 
 ## Live URL
-
-http://15.134.216.16:8080/hello
+http://15.134.216.16:8080/hello 
 
 ## Swagger
 
