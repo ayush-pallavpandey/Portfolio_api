@@ -16,6 +16,7 @@
 ![Build](https://img.shields.io/badge/Build-Passing-brightgreen)
 ![Maintained](https://img.shields.io/badge/Maintained-Yes-success)
 
+![Roadmap](https://img.shields.io/badge/Roadmap-v2.0-purple)
 ---
 
 # 📖 Overview
