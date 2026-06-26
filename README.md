@@ -42,40 +42,7 @@ It serves as a foundation for larger enterprise backend systems.
 | Deployment | AWS EC2 |
 | Status | Active Development |
 
----
 
-# ❓ What Problem Does This Solve?
-
-Developers and recruiters often need a simple but production-style project that demonstrates backend fundamentals beyond basic CRUD examples.
-
-This project provides:
-
-- REST API development using Spring Boot
-- Clean separation of concerns
-- Structured service layer
-- Global exception handling
-- API documentation
-- AWS deployment
-- Maven build automation
-
-Instead of being just another demo application, this repository demonstrates the workflow followed in professional backend development.
-
----
-
-# 💡 Why Did I Build It?
-
-I built this project to strengthen my understanding of Java backend development and to showcase practical skills expected from a Java Backend Developer.
-
-The objectives were:
-
-- Learn Spring Boot fundamentals
-- Build RESTful APIs
-- Understand layered architecture
-- Practice exception handling
-- Generate interactive API documentation
-- Deploy applications on AWS EC2
-- Follow clean project organization
-- Create a project suitable for recruiters and technical interviews
 
 ---
 
@@ -285,22 +252,6 @@ Hello from Spring Boot deployed on AWS!
 
 ---
 
-# 🔥 Highlights
-
-✔ RESTful API Development
-
-✔ Clean Layered Architecture
-
-✔ Swagger Integration
-
-✔ AWS EC2 Deployment
-
-✔ Maven Packaging
-
-✔ Git Version Control
-
-✔ Production-ready Structure
-
 ---
 
 # 🔮 Future Improvements
@@ -324,30 +275,6 @@ Planned enhancements include:
 - HTTPS Support
 - AWS RDS Integration
 - Microservices Migration
-- Kubernetes Deployment
-
----
-
-# 📈 Learning Outcomes
-
-Through this project I gained practical experience in:
-
-- Spring Boot Fundamentals
-- REST API Development
-- Layered Architecture
-- API Documentation
-- Maven Project Management
-- Cloud Deployment
-- Git Workflow
-- Backend Project Organization
-
----
-
-# 🤝 Contributing
-
-Contributions, suggestions, and feedback are always welcome.
-
-Feel free to fork the repository and submit a Pull Request.
-
+- Kubernetes Deploymen
 ---
 .
