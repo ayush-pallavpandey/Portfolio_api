@@ -132,7 +132,29 @@ The project follows a layered architecture to ensure maintainability, scalabilit
 6. ⚠️ The Global Exception Handler manages application errors consistently.
 7. 📚 Swagger UI provides interactive API documentation for testing and exploration.
 
-### Layers
+
+# 📌 Key Highlights
+
+✔ Built using Java 17 and Spring Boot 3.5
+
+✔ Follows Layered Architecture and Separation of Concerns
+
+✔ RESTful API Design using Spring Boot
+
+✔ Interactive API Documentation with Swagger/OpenAPI
+
+✔ Centralized Exception Handling
+
+✔ Deployed on AWS EC2 (Ubuntu)
+
+✔ Maven-based Build Automation
+
+✔ Clean and Maintainable Project Structure
+
+✔ Production-Oriented Development Workflow
+
+✔ Designed as a Foundation for Enterprise Backend Applications
+
 
 ### Controller
 
