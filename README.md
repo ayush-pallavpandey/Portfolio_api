@@ -10,6 +10,12 @@
 ![Git](https://img.shields.io/badge/Git-Version_Control-red)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
+
+![Status](https://img.shields.io/badge/Status-Active-success)
+![Version](https://img.shields.io/badge/version-v1.0.0-blue)
+![Build](https://img.shields.io/badge/Build-Passing-brightgreen)
+![Maintained](https://img.shields.io/badge/Maintained-Yes-success)
+
 ---
 
 # 📖 Overview
@@ -19,6 +25,21 @@ Portfolio API is a lightweight Spring Boot REST application created to demonstra
 The project showcases how to design RESTful APIs, organize business logic using a layered architecture, document APIs with Swagger/OpenAPI, and deploy a Java application on an AWS EC2 instance.
 
 It serves as a foundation for larger enterprise backend systems.
+
+---
+
+## 📌 Project Information
+
+| Property | Value |
+|----------|-------|
+| Language | Java 17 |
+| Framework | Spring Boot 3.5 |
+| Build Tool | Maven |
+| Architecture | Layered Architecture |
+| API Style | REST |
+| Documentation | Swagger/OpenAPI |
+| Deployment | AWS EC2 |
+| Status | Active Development |
 
 ---
 
@@ -96,24 +117,22 @@ The objectives were:
 The project follows a layered architecture to ensure maintainability, scalability, and separation of responsibilities.
 
 ```
-                Internet
-                    │
-                    ▼
-         AWS EC2 Ubuntu Server
-                    │
-                    ▼
-            Spring Boot API
-                    │
-     ┌──────────────┼──────────────┐
-     ▼              ▼              ▼
-
- Controller      Service      Exception
-    Layer          Layer        Handler
-
-                    │
-                    ▼
-
-          Swagger/OpenAPI Docs
+   Internet
+      │
+      ▼
+AWS EC2 Ubuntu
+      │
+      ▼
+Spring Boot
+      │
+ ┌────┼────┐
+ ▼    ▼    ▼
+Controller
+Service
+Exception
+      │
+      ▼
+Swagger UI
 ```
 
 ### Layers
@@ -311,26 +330,4 @@ Contributions, suggestions, and feedback are always welcome.
 Feel free to fork the repository and submit a Pull Request.
 
 ---
-
-# 📄 License
-
-This project is licensed under the MIT License.
-
----
-
-# 👨‍💻 Author
-
-**Ayush Pallav Pandey**
-
-Java Backend Developer
-
-- Java
-- Spring Boot
-- REST APIs
-- AWS
-- Docker
-- Spring Security
-- Hibernate
-- Microservices (Learning)
-
-If you found this project useful, consider giving it a ⭐ to support the repository.
+.
