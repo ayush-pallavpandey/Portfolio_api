@@ -116,24 +116,21 @@ The objectives were:
 
 The project follows a layered architecture to ensure maintainability, scalability, and separation of responsibilities.
 
-```
-   Internet
-      │
-      ▼
-AWS EC2 Ubuntu
-      │
-      ▼
-Spring Boot
-      │
- ┌────┼────┐
- ▼    ▼    ▼
-Controller
-Service
-Exception
-      │
-      ▼
-Swagger UI
-```
+<p align="center">
+    <img src="assets/bannner.png"
+         alt="Portfolio API Architecture"
+         width="850"/>
+</p>
+
+### Architecture Flow
+
+1. 🌐 Client sends an HTTP request over the Internet.
+2. ☁️ AWS EC2 (Ubuntu) hosts the Spring Boot application.
+3. 🚀 Spring Boot receives and processes the request.
+4. 🎮 The Controller layer handles incoming API requests.
+5. ⚙️ The Service layer contains the business logic.
+6. ⚠️ The Global Exception Handler manages application errors consistently.
+7. 📚 Swagger UI provides interactive API documentation for testing and exploration.
 
 ### Layers
 
