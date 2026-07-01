@@ -103,7 +103,7 @@ The project follows a layered architecture to ensure maintainability, scalabilit
 
 # 📌 Key Highlights
 
-✔ Built using Java 17 and Spring Boot 3.5
+✔ Built using Java 21 and Spring Boot 3.5
 
 ✔ Follows Layered Architecture and Separation of Concerns
 
